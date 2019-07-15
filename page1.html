@@ -44,7 +44,7 @@ body, html {
 }
 </style>
   <style>
-ul {
+Header {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -52,11 +52,11 @@ ul {
   background-color: #333;
 }
 
-li {
+Tab{
   float: left;
 }
 
-li a {
+Tab a {
   display: block;
   color: white;
   text-align: center;
@@ -64,7 +64,7 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+Tab a:hover {
   background-color: #111;
 }
 </style>
@@ -79,12 +79,12 @@ li a:hover {
 </div>
 <body>
 
-<ul>
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
-</ul>
+<Header>
+  <Tab><a class="active" href="#home">Home</a></Tab>
+  <Tab><a href="#news">News</a></Tab>
+  <Tab><a href="#contact">Contact</a></Tab>
+  <Tab><a href="#about">About</a></Tab>
+</Header>
 
 </body>
 
